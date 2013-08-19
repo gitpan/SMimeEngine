@@ -1,0 +1,12 @@
+# 
+# Revision history for Perl module Crypt::SMimeEngine
+#
+
+0.01 Thu Dec 27 13:59:50 2007
+    - original version
+
+0.02 Mar 25 2010
+    - SSM support, bug fix 64 bit, port to openssl 1.0
+
+0.03 Aug 13 2013
+    - digest for hashing

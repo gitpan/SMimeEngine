@@ -1,0 +1,71 @@
+MIME-Version: 1.0
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha1"; boundary="----4B3F0618A8F2D3117A3555D429DC7230"
+
+This is an S/MIME signed message
+
+------4B3F0618A8F2D3117A3555D429DC7230
+Received: by 10.141.33.2 with HTTP; Tue, 5 Feb 2008 02:14:55 -0800 (PST)
+Message-ID: <a5f4dedd0802050214o1186def5m2edce8332442acd1@mail.gmail.com>
+Date: Tue, 5 Feb 2008 11:14:55 +0100
+From: "Flavio Fanton" <flazan@exentrica.it>
+To: modules@perl.org
+Subject: Namespace proposal: Crypt::SMimeEngine
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+Delivered-To: flazan@gmail.com
+X-Google-Sender-Auth: b88796a9c8d769c5
+
+Hi,
+
+I would upload a new module to process messages SMIME with hardware
+engines also.
+I believe an appropriate namespace is Crypt:: SMimeEngine.
+
+Let me know if a problem occurs.
+
+-- 
+*** Fanton Flavio
+EXEntrica - www.exentrica.it
+Office: +39050754703
+Fax: +39050754707
+ICQ: #241547295 - flazan
+------4B3F0618A8F2D3117A3555D429DC7230
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+MIIFdgYJKoZIhvcNAQcCoIIFZzCCBWMCAQExCzAJBgUrDgMCGgUAMAsGCSqGSIb3
+DQEHAaCCA0AwggM8MIICpaADAgECAgEAMA0GCSqGSIb3DQEBBAUAMHgxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQIEwRQaXNhMRIwEAYDVQQHEwlOYXZhY2NoaW8xGTAXBgNV
+BAoTEEVYRW50cmljYSBzLnIubC4xKzApBgkqhkiG9w0BCQEWHHBvc3RhLWNlcnRp
+ZmljYXRhQHBlY3Rlc3QuaXQwHhcNMDcxMTI3MTIxNzIxWhcNMTAxMTI2MTIxNzIx
+WjB4MQswCQYDVQQGEwJJVDENMAsGA1UECBMEUGlzYTESMBAGA1UEBxMJTmF2YWNj
+aGlvMRkwFwYDVQQKExBFWEVudHJpY2Egcy5yLmwuMSswKQYJKoZIhvcNAQkBFhxw
+b3N0YS1jZXJ0aWZpY2F0YUBwZWN0ZXN0Lml0MIGfMA0GCSqGSIb3DQEBAQUAA4GN
+ADCBiQKBgQDR12fetfAKJWwHPiSMtrUWvTQ3InUJ+qSy3LIOE59QCq5CiZnq/C6e
+ct2byBL3JrrDJhnz3dULvt3pBGbWZuxqH+dtSDAuqPRPxyjIsZ8lY28lg9ozcjN9
+ygpSGAb1ZNs4LYixNKCXFTcfcfwn+GesjT4eCDGB23yyBMBt+m4cWQIDAQABo4HV
+MIHSMB0GA1UdDgQWBBS9M3pFM4Hl001Dh0whbg72KKX4YjCBogYDVR0jBIGaMIGX
+gBS9M3pFM4Hl001Dh0whbg72KKX4YqF8pHoweDELMAkGA1UEBhMCSVQxDTALBgNV
+BAgTBFBpc2ExEjAQBgNVBAcTCU5hdmFjY2hpbzEZMBcGA1UEChMQRVhFbnRyaWNh
+IHMuci5sLjErMCkGCSqGSIb3DQEJARYccG9zdGEtY2VydGlmaWNhdGFAcGVjdGVz
+dC5pdIIBADAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4GBAKclzU0IdmWc
+ZuH6KKqzhJYW75geqiUqsP6PJ0bQ81Vc38LQA5xifFk7A0DGFSLrR0lVBJntkRSo
+9R8kbgzg+LTKxpyC3/GzAJHGjwR5p+7LSzr4j5tHiMvqIUBPAh0cmbmwMuyyefqM
+RGk4mj3ZSV32XW/UlvSniyG29gaDUWn0MYIB/jCCAfoCAQEwfTB4MQswCQYDVQQG
+EwJJVDENMAsGA1UECBMEUGlzYTESMBAGA1UEBxMJTmF2YWNjaGlvMRkwFwYDVQQK
+ExBFWEVudHJpY2Egcy5yLmwuMSswKQYJKoZIhvcNAQkBFhxwb3N0YS1jZXJ0aWZp
+Y2F0YUBwZWN0ZXN0Lml0AgEAMAkGBSsOAwIaBQCggdgwGAYJKoZIhvcNAQkDMQsG
+CSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTMwODE2MTQ0MjM1WjAjBgkqhkiG
+9w0BCQQxFgQUFqfJO+OXjkOq7mSS0UiAwypMNsQweQYJKoZIhvcNAQkPMWwwajAL
+BglghkgBZQMEASowCwYJYIZIAWUDBAEWMAsGCWCGSAFlAwQBAjAKBggqhkiG9w0D
+BzAOBggqhkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4DAgcwDQYIKoZI
+hvcNAwICASgwDQYJKoZIhvcNAQEBBQAEgYA77Xr3y9qVhcsXha0Za+M1jYCHC+JH
+wekShCNcNB3iSI+YaVAbNJaLywBqBy4n4erXvQUWJydoydhVyj8kNwl22AR7FBrp
+pC0+Die9/mDMxfvYhmOVMVOe8TqPJmmn1gi6D8XQawfZacKg81xR8Tom8yURwnQS
+5KzJt1NpBPr5zQ==
+
+------4B3F0618A8F2D3117A3555D429DC7230--
+
